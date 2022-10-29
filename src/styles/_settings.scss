@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "font-2";
+  src: url(../assets/fonts/Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: "font-3";
+  src: url(../assets/fonts/Satisfy-Regular.ttf);
+}
+
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$font-1: "font-1", sans-serif;
+$font-2: "font-2", sans-serif;
+$font-3: "font-3", sans-serif;
+$color1: rgb(230, 230, 230);
+$color2: rgb(27, 27, 27);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 67, 172, 1) 0%,
+    rgba(52, 129, 190, 1) 38%,
+    rgba(120, 178, 235, 0.7693452380952381) 84%
+  );
+}

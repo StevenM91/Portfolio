@@ -6,22 +6,46 @@ const Navigation = () => {
     <div className="container-navigation">
       <div className="content">
         <NavLink to="/">
-          <li>Accueil</li>
+          <div className="nav">
+            <li>Accueil</li>
+            <img src="./assets/img/home.png" alt="home" className="img-nav" />
+          </div>
         </NavLink>
       </div>
       <div className="content">
         <NavLink to="/about">
-          <li>À propos</li>
+          <div className="nav">
+            <li>À propos</li>
+            <img
+              src="./assets/img/apropos.png"
+              alt="A propos"
+              className="img-nav"
+            />
+          </div>
         </NavLink>
       </div>
       <div className="content">
         <NavLink to="/projets">
-          <li>Projets</li>
+          <div className="nav">
+            <li>Projets</li>
+            <img
+              src="./assets/img/projets.png"
+              alt="projets"
+              className="img-nav"
+            />
+          </div>
         </NavLink>
       </div>
       <div className="content">
         <NavLink to="/contact">
-          <li>Contact</li>
+          <div className="nav">
+            <li>Contact</li>
+            <img
+              src="./assets/img/contact.png"
+              alt="contact"
+              className="img-nav"
+            />
+          </div>
         </NavLink>
       </div>
     </div>

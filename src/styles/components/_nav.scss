@@ -1,0 +1,30 @@
+.container-navigation {
+  display: flex;
+  margin-left: 3%;
+  .content {
+    width: 150px;
+    height: 150px;
+    background: white;
+    margin: 10px;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 4%;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      transform: scale(1.2);
+    }
+    .nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      transition: 0.4s ease-in-out;
+    }
+    .img-nav {
+      min-width: 50px;
+      height: 100px;
+      margin: 0 auto;
+    }
+  }
+}
